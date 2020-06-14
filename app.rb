@@ -7,7 +7,8 @@ class App < Sinatra::Base
 		get '/hello' do
 		erb :hello
 	
-	
+	get '/goodbye' do
+		erb :goodbye
 	
 
 
